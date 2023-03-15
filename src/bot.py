@@ -1,7 +1,6 @@
 import ip
 import config
 import logging
-import telegram
 from telegram import (
     Update,
     User,
