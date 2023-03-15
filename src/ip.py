@@ -5,7 +5,7 @@ import requests
 """
 
 
-def get_ip():
+def get_my_ip():
     ip = _ipify()
     if ip == None:
         ip = _ipecho()
